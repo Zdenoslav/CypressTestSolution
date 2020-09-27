@@ -1,5 +1,3 @@
-const { cyan } = require("color-name")
-
 describe(' Testing the endpoints for a hypothetical API', function () {
 
     it('GET', function () {
