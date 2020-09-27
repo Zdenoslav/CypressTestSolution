@@ -5,4 +5,10 @@ describe('test against Spanish site', () => {
         cy.contains('¿Por qué Cypress?')
     });
 
+    it('Check the english language is still available', function () {
+
+        cy.visit(`https://docs.cypress.io/`)
+        cy.contains('Why Cypress?')
+    });
+
 });
