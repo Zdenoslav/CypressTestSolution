@@ -1,6 +1,6 @@
 describe('test against Spanish site', () => {
 
-    it('displays Spanish', () => {
+    it('displays Spanish language', () => {
         cy.visit(`https://docs.cypress.io/es`)
         cy.contains('¿Por qué Cypress?')
     });
