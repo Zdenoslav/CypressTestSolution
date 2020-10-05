@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Zdenoslav/CypressTestSolution#readme"
 }
-
-{
-  "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first",
-}
+//{
+//  "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first",
+//}
