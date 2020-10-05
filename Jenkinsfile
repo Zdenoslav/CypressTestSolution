@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh './jenkins/integration/rest.spec.js'
+        sh '/Users/zdenkomucina/Desktop/CypressTest/cypress/integration/CypressDocs/languageSupport.spec.js'
       }
     }
   }
