@@ -1,0 +1,1 @@
+"cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first",
