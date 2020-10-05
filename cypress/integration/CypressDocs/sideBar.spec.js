@@ -6,8 +6,8 @@ describe('Test the SideBar "Dashboard"', function () {
 
     it('Check the navigation button expands', function () {
 
-        cy.get(".sidebar-title.is-collapsed").contains('Dashboard').click()
-        cy.get(".sidebar-title.current.is-collapsed").should('not.exist')
+        cy.get(".sidebars-title.is-collapsed").contains('Dashboard').click()
+        cy.get(".sidebars-title.current.is-collapsed").should('not.exist')
     })
 
     it('Check the navigation side bar contains the right url path', function () {
